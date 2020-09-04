@@ -28,15 +28,15 @@ const Businesses = () => {
                     <div id="third-col-text">
                         <h2 className="text-2xl font-bold">New Shops!</h2>
                         <p className="text-lg">Give these newly listed shops a warm welcome!</p>
-                        <DarkButton text="Discover!" />
+                            <DarkButton text="Discover!" />
                     </div>
                 </div>
                 <div className="container-sm">
-                    <img className="lg:h-xs object-right object-cover" src={flowerDelivery} alt="two women delivering flowers" />
-                </div>
+                        <img className="lg:h-xs object-right object-cover" src={flowerDelivery} alt="two women delivering flowers" />
+                    </div>
            </section>
 
-           <div className="flex flex-col">     
+           <section className="flex flex-col bg-white py-20 shadow-xl">     
                 <div>
                     <h3 className="font-bold text-4xl lg:ml-16 ml-8">Offers Near You</h3>
                 </div>
@@ -79,7 +79,7 @@ const Businesses = () => {
                         totalRating={321}
                     />
                 </div>
-            </div>
+            </section>
         </div>
     );
 }
