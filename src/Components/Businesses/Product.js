@@ -18,8 +18,8 @@ const Product = (props) => {
             </div>
 
             <div>
-                <Link to="/shoppingCart">
-                    <button className="w-full py-3 px-4 bg-custom-green hover:bg-green-700 uppercase text-white font-bold">Add to Bag</button>
+                <Link to="/cart">
+                    <button className="w-full py-3 px-4 rounded-b-lg  bg-custom-green hover:bg-green-700 uppercase text-white font-bold">Add to Bag</button>
                 </Link>
             </div>
         

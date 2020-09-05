@@ -34,8 +34,8 @@ const One = () => {
                 
             </div>
             {/* Image */}
-            <div className="flex lg:w-2/3 lg:h-auto h-sm">
-                <img className="lg:object-cover object-contain" src={ bike } alt="A man riding a bike through a busy street" />
+            <div className="flex lg:w-2/3 lg:h-auto h-xs">
+                <img className="object-cover object-left" src={ bike } alt="A man riding a bike through a busy street" />
             </div>
         </div>
     );
